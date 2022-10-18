@@ -1,0 +1,55 @@
+section {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: fixed; 
+    top: 30%;
+}
+
+.game {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(134, 168, 173);
+    justify-content: center;
+    border: 1px solid black;  
+}
+
+.play {
+    display: grid;
+    grid-template-columns: repeat(3, 40px);
+    gap: 20px;
+}
+
+.block {
+    width: 50px;
+    height: 50px;
+    justify-self: center;
+    align-self: center;
+}
+
+h1 {
+    font-size: 30px;
+    color: black;
+    margin: 0;
+}
+
+button {
+    font-size: 20px;
+}
+
+.buttonRand {
+    margin: 20px;
+}
+
+.null-block {
+    background-color: rgb(134, 168, 173);
+    color: rgb(134, 168, 173);
+    border: none;
+}
